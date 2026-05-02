@@ -1,0 +1,8 @@
+name=input("Enter emp name: ")
+sal=int(input("Enter salary: "))
+des=input("Enter position: ")
+taxd={"tl":10,"Manager":20,"fresher":5,"Developer":15}
+tax=sal*(taxd[des]/100)
+print(tax)
+os=sal-tax
+print("your salary after tax:",os)
